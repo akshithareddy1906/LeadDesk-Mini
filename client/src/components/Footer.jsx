@@ -1,24 +1,20 @@
-function Footer(){
+function Footer() {
+  return (
+    <footer>
+      <p>© 2026 LeadDesk Mini. All Rights Reserved.</p>
 
-
-return (
-
-<footer>
-
-
-<p>
-
-© 2026 LeadDesk Mini. All Rights Reserved.
-
-</p>
-
-
-</footer>
-
-);
-
-
+      <p>
+        Built for{" "}
+        <a
+          href="https://digitalheroesco.com"
+          target="_blank"
+          rel="noopener noreferrer"
+        >
+          Digital Heroes Training Task
+        </a>
+      </p>
+    </footer>
+  );
 }
-
 
 export default Footer;
